@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PDF to Excel Converter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="main">
+
+<h1>PDF to Excel Converter</h1>
+
+<form action="convert.php" method="post" enctype="multipart/form-data">
+<input type="file" name="files[]" multiple>
+<input type="submit" value="Convert">
+<input type="button" value="Clear" onclick="clearForm()">
+</form>
+
+<div id="results"></div>
+
+</div>
+
+</body>
+</html>
